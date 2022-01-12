@@ -1,0 +1,18 @@
+pandas==1.2.3
+numpy==1.21.0
+scipy ==1.7.0
+joblib==1.0.1
+numba==0.53.1
+nltk==3.6.2
+matplotlib==3.4.2
+seaborn==0.11.1
+pyarrow==4.0.1
+google-cloud-bigquery==2.20.0
+google-cloud-storage==1.40.0
+transformers==3.2.0
+git+https://github.com/patil-suraj/onnx_transformers
+spacy==3.1.2
+
+#!pip install Cython
+#!cython _guidedlda.pyx \;
+#!pip install -e .
